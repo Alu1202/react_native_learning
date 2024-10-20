@@ -1,0 +1,78 @@
+# React Native
+node_modules/
+# Ignore all .lock files (yarn, npm, package-lock.json)
+*.lock
+*.log
+
+# macOS
+.DS_Store
+
+# iOS
+ios/Pods/
+ios/build/
+ios/DerivedData/
+ios/*.xcworkspace
+ios/Podfile.lock
+ios/Podfile~
+ios/*.xcodeproj/project.xcworkspace
+ios/.symlinks/
+
+# Android
+android/.gradle
+android/app/build/
+android/local.properties
+android/.idea/
+android/gradle/wrapper/gradle-wrapper.properties
+android/gradle.properties
+android/*.iml
+*.keystore
+
+# React Native Packager
+*.swp
+*.swo
+*.swn
+*.swm
+
+# Metro Bundler cache
+__generated__/
+.expo/
+
+# Operating System files
+Thumbs.db
+.DS_Store
+
+# ESLint cache
+.eslintcache
+
+# IDEs
+.vscode/
+.idea/
+
+# Babel cache
+.babelrc
+.babel.json
+.babelignore
+
+# Logs
+npm-debug.log*
+yarn-debug.log*
+yarn-error.log*
+
+# Flow
+.flowconfig
+.flow/
+
+# Testing
+coverage/
+
+# Fastlane
+fastlane/report.xml
+fastlane/Preview.html
+fastlane/screenshots/**/*.png
+fastlane/test_output
+
+# Build cache
+build/
+dist/
+.env
+.env.*.local
